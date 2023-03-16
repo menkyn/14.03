@@ -1,7 +1,17 @@
-
+@font-face
+{
+    font-family: "myFontTest";
+    src: url(../fonts/beer-money12.ttf);
+}
 *{
-    font-family: 'Lobster', cursive;
+    font-family: "myFontTest";
+}
+p{
+    font-weight: 300;
+    font-size: 12pt;
+    font-style: italic;
 }
 h1{
-    color: red ;
+    font-weight: bolder;
+    font-size: 50pt;
 }
