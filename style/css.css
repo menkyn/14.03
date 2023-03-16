@@ -1,4 +1,4 @@
-@font-face
+/*@font-face
 {
     font-family: "myFontTest";
     src: url(../fonts/beer-money12.ttf);
@@ -14,4 +14,36 @@ p{
 h1{
     font-weight: bolder;
     font-size: 50pt;
+}*/
+@font-face
+{
+ font-family: "myFontTest";
+    src: url(../fonts/ofont.ru_Montserrat.ttf);
 }
+@font-face
+{
+    font-family: "Bebas Neue";
+    src: url(../fonts/ofont.ru_Bebas\ Neue.ttf);
+}
+.menu{
+    
+    background-color: lightblue;
+    margin: 10px;
+    padding:  50px;
+
+}
+p1,p2,p3{
+    
+     display: inline;
+     margin: 30px;
+     color: brown;
+     font-family: "myFontTest";
+    
+}
+p4{
+    display: inline;
+     margin: 30px;
+     color: red;
+     font-family: "Bebas Neue";
+}
+
